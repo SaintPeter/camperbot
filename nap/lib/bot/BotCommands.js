@@ -300,6 +300,13 @@ var BotCommands = {
         return (this.welcome(input, bot) );
     },
 
+    banhammer: function(input, bot) {
+        console.log("bob input>", input.params);
+        console.log("from>", input.message.model.fromUser);
+        console.log("mentions>", input.message.model.mentions);
+        return("/ban @" + input.message.model.mentions[0].screenName);
+    },
+
     //DEMO how to add a new 
     bob: function(input, bot) {
         console.log("bob input>", input.params);

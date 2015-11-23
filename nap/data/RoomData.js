@@ -142,11 +142,11 @@ var camperBotRooms = [
 var BotRoomData = {
 
     // this controls which rooms you can access
-    YOUR_GITHUB_ID: [
+    saintbot: [
         // change this to be a room your user is already in
         {
             title: "bothelp",
-            name: "YOUR_GITHUB_ID/testing",
+            name: "saintbot/testing",
             icon: "question",
             topics: ["chitchat", "bots", "bot-development", "camperbot"]
         },

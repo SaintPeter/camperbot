@@ -46,6 +46,10 @@ var AllRoomMessages = [
     {
         regex: /\bth?a?n?[xk]s?q?\b/gim,
         func: BotCommands.thanks
+    },
+    {
+        regex: /^!ban.*/i,
+        func: BotCommands.banhammer
     }
 ];
 

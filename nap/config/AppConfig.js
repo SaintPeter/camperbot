@@ -16,7 +16,7 @@ var AppConfig = {
     org: "bothelp",
     testUser: "bothelp",
     // so bot doesnt get in a loop replying itself
-    botlist: ["bothelp", "camperbot", "YOUR_GITHUB_ID", "demobot"],
+    botlist: ["bothelp", "camperbot", "YOUR_GITHUB_ID", "demobot", "SaintBot"],
     webuser: "webuser",
     wikiHost: "https://github.com/freecodecamp/freecodecamp/wiki/",
     gitterHost: "https://gitter.im/",
@@ -105,10 +105,10 @@ var AppConfig = {
 var envConfigs = {
 
     // replace this with your own ID
-    YOUR_GITHUB_ID: {
-        botname: "YOUR_GITHUB_ID",
+    saintbot: {
+        botname: "saintbot",
         appHost: "http://localhost:7000",
-        apiServer: "freecodecamp.com",
+        apiServer: "www.freecodecamp.com",
         appRedirectUrl: "http://localhost:7891/login/callback",
     },
 
